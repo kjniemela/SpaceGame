@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+$primary-color: white;
+$bg: black;
+$border-color: black;
+$link-btn-color: rgb(27, 149, 197);
+$primary-font: 'Ubuntu', sans-serif;
+$heavy: 600;
+$tinyfont: .75rem;
+$smallfont: .9rem;
+$largefont: 1.2rem;
+$gray-text-color: rgb(69, 69, 69);
+$error-text-color: rgb(226, 67, 27);
+$container-bg: whitesmoke;
+
+//util
+
+body {
+  font-family: $primary-font;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
